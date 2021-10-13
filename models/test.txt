@@ -1,1 +1,3 @@
-se sube un archivo de prueba
+se sube un archivo de prueba.
+Se crea una nueva rama localbranch pra aplicar los cambios y fusionar_
+la con la master
