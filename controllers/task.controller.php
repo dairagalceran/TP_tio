@@ -1,5 +1,6 @@
 <?php
 
+// Se detallan todos los requires a model, view y helper
 require_once 'models/task.model.php';
 require_once 'views/task.view.php';
 require_once 'helpers/auth.helper.php';
