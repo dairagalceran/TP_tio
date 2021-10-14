@@ -2,11 +2,17 @@
 
 require_once './libs/smarty-master/libs/Smarty.class.php';
 
-class TaskView {
+class AuthView{
 
     private $smarty;
-    // Creamos el constructor para Smarty
+
     function __construct(){
         $this->smarty = new Smarty();
+    }
+
+    function showFormLogin(){
+
+        $this->smarty->display('../templates/formLogin.tpl');
+
     }
 }
