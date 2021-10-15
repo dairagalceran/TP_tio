@@ -12,7 +12,7 @@ class TaskView {
 
     function showTasks($tasks) {     
         $this->smarty->assign('titulo','Lista de tareas');
-        $this->smarty->assign('tituloform', 'Ingresar una tarea');
+        $this->smarty->assign('tituloformulario', 'Ingresar una tarea');
         $this->smarty->assign('tasks', $tasks );
 
         $this->smarty->display('../templates/taskList.tpl');
@@ -21,7 +21,7 @@ class TaskView {
 
     function showTaskEditForm(){
         $this->smarty->assign('titulo','Listado de tareas');
-        $this->smarty->assign('tituloform', 'ver de a una tarea');
+        $this->smarty->assign('tituloform', 'Completar tarea');
         $this->smarty->display('../templates/taskList.tpl');
     }
 }
