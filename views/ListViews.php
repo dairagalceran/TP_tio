@@ -18,4 +18,8 @@ class TaskView {
         $this->smarty->display('../templates/taskList.tpl');
    
     }   
+
+    function showTaskEditForm(){
+        
+    }
 }
