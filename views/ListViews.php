@@ -20,6 +20,8 @@ class TaskView {
     }   
 
     function showTaskEditForm(){
-        
+        $this->smarty->assign('titulo','Listado de tareas');
+        $this->smarty->assign('tituloform', 'ver de a una tarea');
+        $this->smarty->display('../templates/taskList.tpl');
     }
 }
