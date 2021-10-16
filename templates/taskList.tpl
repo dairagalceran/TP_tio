@@ -20,6 +20,9 @@
                             {if !$task->finalizada}
                                 <a class="btn btn-sm btn-success" href="completar/{$task->id}">Done</a>
                             {/if}
+                            {if !$task->incompleta}
+                                <a class="btn btn-sm btn-success" href="incompleta/{$task->id}">Complete task</a>
+                            {/if}
                         </div>
                 </li>
             {/foreach}
